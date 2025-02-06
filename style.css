@@ -55,9 +55,20 @@ h1 {
 }
 
 
+#warning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text-w {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
 #main-content {
     padding: 2rem 1rem;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
@@ -65,7 +76,6 @@ h1 {
     margin: 0 auto;
     font-size: 1rem;
     text-transform: uppercase;
-    margin-x: 1rem;
 }
 
 a {
