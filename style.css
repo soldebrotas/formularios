@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    height: 100%;
 }
 :root {
     --primary-color: #174A74;
@@ -56,18 +57,21 @@ h1 {
 
 
 #warning {
-    width: 600px;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
 }
 
 #text-w {
     font-weight: 700;
-    font-size: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: var(--color-text);
     margin-top: -20px;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 24px;
 }
 
 #main-content {
