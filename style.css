@@ -59,11 +59,15 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100vw;
 }
 
 #text-w {
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #main-content {
